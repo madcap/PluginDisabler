@@ -1,0 +1,20 @@
+name: PluginDisabler
+main: org.maats.madcap.bukkit.PluginDisabler.PluginDisabler
+version: 0.1
+commands:
+  pdisable:
+    description: Disables plugins.
+    usage: /pdisable ARGUMENTS to disable the plugins in ARGUMENTS.
+    aliases: poff
+  penable:
+    description: Enables plugins.
+    usage: /penable ARGUMENTS to enable all plugins in ARGUMENTS.
+    aliases: pon
+  ptoggle:
+    description: Toggles the enabled/disabled status of plugins.
+    usage: /ptoggle ARGUMENTS will toggle the status of all plugins in ARGUMENTS.
+    aliases: p
+  pstatus:
+    description: Tells you the current status of a plugin
+    usage: /pstatus ARGUMENTS will tell you the current enabled/disabled status of all plugins in ARGUMENTS.
+    aliases: pstat
